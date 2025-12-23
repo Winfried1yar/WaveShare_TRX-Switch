@@ -1,0 +1,4 @@
+$port = New-Object System.IO.Ports.SerialPort COM5, 9600, None, 8, one
+$port.Open()
+$port.Write("Trx1")
+$port.Close()
